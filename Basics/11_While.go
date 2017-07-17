@@ -4,9 +4,13 @@ import "fmt"
 
 func main() {
 
-	j := 0
+	var j int
+	fmt.Println(j)
 
-	if (j < 5) {
+	condition := j > 5
+	fmt.Println(condition)
+
+	if condition {
 		fmt.Println("golang")
 		j++
 	}

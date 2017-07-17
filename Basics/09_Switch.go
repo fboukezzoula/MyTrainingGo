@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	myVariable := "create"
+	myVariable := "created"
 
 	switch myVariable {
 

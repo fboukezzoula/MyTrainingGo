@@ -13,7 +13,8 @@ func main() {
 		myFirst = iota
 		mySecond
 		myThird
+		myFour
 	)
 
-	fmt.Println(myFirst, mySecond, myThird)
+	fmt.Println(myFirst, mySecond, myThird, myFour)
 }

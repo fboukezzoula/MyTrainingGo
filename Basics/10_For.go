@@ -13,9 +13,10 @@ func main() {
 	}
 
 	MyVarString := "Marseille"
+	fmt.Println(len(MyVarString))
 
 	for _, char := range MyVarString {
-		fmt.Print(string(char) + "-")
+		fmt.Print(string(char))
 	}
 	fmt.Println()
 
